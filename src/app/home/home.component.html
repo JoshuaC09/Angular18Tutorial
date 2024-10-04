@@ -50,4 +50,27 @@
 <br />
 <button (click)="ChangeTitle()">Click here</button>
 <br />
-<div class="inactive"><h2>Attribute directive</h2></div>
+<div [ngClass]="{ active: isDisabled, inactive: !isDisabled }">
+  <h2>Attribute directive</h2>
+</div>
+
+<div *ngIf="isShow">
+  <h2 [ngStyle]="{ color: _color, fontSize: _font }">Attribute directive</h2>
+</div>
+
+<div *ngFor="let item of ticketInfo" [ngStyle]="{ color: item.color }">
+  <span>Id:{{ item.id }}</span>
+  <h2>{{ item.name | uppercase }}</h2>
+</div>
+
+<div [ngSwitch]="_view">
+  <div *ngSwitchCase="'home'">
+    <h2>This is home view</h2>
+  </div>
+  <div *ngSwitchCase="'about'">
+    <h2>This is about view</h2>
+  </div>
+  <div *ngSwitchDefault>
+    <h2>This is default</h2>
+  </div>
+</div>
