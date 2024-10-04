@@ -19,6 +19,31 @@ export class HomeComponent {
   _obj = { name: 'Nt' };
 
   isDisabled = false;
+  _class = 'active';
+  _color = 'blue';
+  _font = '24px';
+
+  isShow = false;
+
+  ticketInfo = [
+    {
+      id: 1,
+      name: 'angular1',
+      color: 'green',
+    },
+    {
+      id: 2,
+      name: 'angular2',
+      color: 'blue',
+    },
+    {
+      id: 3,
+      name: 'angular2',
+      color: 'red',
+    },
+  ];
+
+  _view = 'home';
 
   ChangeTitle() {
     this.title = 'angular 18 full turial';
