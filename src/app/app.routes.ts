@@ -9,6 +9,7 @@ import { authGuard } from './Guard/auth.guard';
 import { childauthGuard } from './Guard/childauth.guard';
 import { authdeactivateGuard } from './Guard/authdeactivate.guard'; // Change this line
 import { LoginComponent } from './common/login/login.component';
+import { RegisterComponent } from './common/register/register.component';
 
 export const routes: Routes = [
   {
@@ -29,6 +30,10 @@ export const routes: Routes = [
   {
     path: 'login',
     component: LoginComponent,
+  },
+  {
+    path: 'register',
+    component: RegisterComponent,
   },
   {
     path: 'contact',

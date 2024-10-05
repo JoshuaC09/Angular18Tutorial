@@ -5,7 +5,14 @@ export interface LoginModel {
 
 export interface User {
   id: string;
-  username: string;
+  name: string;
   password: string;
   role: string;
+  gender: string;
+  email: string;
+}
+
+export interface Role {
+  value: string;
+  viewValue: string;
 }

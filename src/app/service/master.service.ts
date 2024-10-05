@@ -19,4 +19,8 @@ export class MasterService {
   isLoggedIn() {
     return localStorage.getItem('username') != null;
   }
+
+  ProceedRegister(_data: User) {
+    return this.http.post('http://localhost:3000/user?id', _data);
+  }
 }
