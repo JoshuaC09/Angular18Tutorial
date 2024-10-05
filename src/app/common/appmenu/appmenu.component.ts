@@ -23,7 +23,7 @@ export class AppmenuComponent implements DoCheck {
   constructor(private router: Router) {}
   ngDoCheck(): void {
     let currentUrl = this.router.url;
-    if (currentUrl == '/login') {
+    if (currentUrl == '/login' || currentUrl == '/register') {
       this.showmenu = false;
     } else {
       this.showmenu = true;

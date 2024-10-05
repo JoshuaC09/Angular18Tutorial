@@ -11,6 +11,54 @@
       "name": "sales user",
       "password": "admin",
       "role": "salesman"
+    },
+    {
+      "id": "test",
+      "password": "123234234",
+      "name": "sadfasf",
+      "role": "salesman",
+      "gender": "m",
+      "email": "joshua@gmail.com"
+    },
+    {
+      "id": "test",
+      "password": "12334",
+      "name": "12334",
+      "role": "salesman",
+      "gender": "m",
+      "email": "joshuacanpi@gmail.com"
+    },
+    {
+      "id": "test",
+      "password": "12343",
+      "name": "12321",
+      "role": "salesman",
+      "gender": "m",
+      "email": "joshuacanapi@gmail.com"
+    },
+    {
+      "id": "test",
+      "password": "asdffg",
+      "name": "asdfasd",
+      "role": "salesman",
+      "gender": "m",
+      "email": "asdf@gmail.com"
+    },
+    {
+      "id": "test",
+      "password": "123213",
+      "name": "asjkfhsdjk",
+      "role": "salesman",
+      "gender": "m",
+      "email": "kjashf@gmail.com"
+    },
+    {
+      "id": "canapi",
+      "password": "12345",
+      "name": "jsohua",
+      "role": "salesman",
+      "gender": "m",
+      "email": "joshuacanapi@gmail.com"
     }
   ]
 }
